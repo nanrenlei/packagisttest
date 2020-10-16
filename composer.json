@@ -1,26 +1,26 @@
 {
-    "name": "nanrenlei/blog",
-    "description": "这是一个测试包",
-    "require": {
-        "php": "7.2.20",
-		"ext-curl": "*",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "php": ">=7.2"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "nanrenlei",
-            "email": "1280104614@qq.com"
-        }
-    ],
-    "minimum-stability": "stable",
-	"autoload":{
-		"psr-4":{
-			"Package\\":"src/"
-		}
-	}
-	
+  "name": "nanrenlei/blog",
+  "description": "这是一个测试包",
+  "require": {
+    "php": "7.2.20",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "php": ">=7.2"
+  },
+  "license": "MIT",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "nanrenlei",
+      "email": "1280104614@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Package\\": "src/"
+    }
+  }
 }
