@@ -24,7 +24,8 @@ class MyTest
     {
         return [
             'name' => 'Test',
-            'age' => 21
+            'age' => 21,
+            'height'=>178.5
         ];
     }
 }
